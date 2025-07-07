@@ -1,6 +1,6 @@
 ### Sawt
 
-Sawt an automated podcast highlights extraction tool designed specifically for Arabic language podcasts
+- ✨ Sawt an automated podcast highlights extraction tool designed specifically for Arabic language podcasts
 
 ##### Sawt objectives
 - 📢 Support Arabic language podcasts by addressing the limited availability of tools that cater specifically to Arabic content
@@ -35,4 +35,3 @@ Sawt an automated podcast highlights extraction tool designed specifically for A
 ├── 📁 pagesArabic
 ├── mongosh.exe # MongoDB shel
 ```
-
