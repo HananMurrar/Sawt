@@ -19,7 +19,7 @@ Sawt an automated podcast highlights extraction tool designed specifically for A
   - 🔗 Merge subsystem: after the audio and video parts are processed, this subsystem combines their results to create the final highlight labeled clips for video podcasts  
 
 ##### Sawt structure folder
-
+"
 📁 sawt
 ├── 📁 backendFolder
 │   ├── audioSubsystem.py
@@ -33,4 +33,6 @@ Sawt an automated podcast highlights extraction tool designed specifically for A
 ├── 📁 assetsFolder
 ├── 📁 pagesEnglish
 ├── 📁 pagesArabic
-├── mongosh.exe # MongoDB shel 
+├── mongosh.exe # MongoDB shel
+"
+
