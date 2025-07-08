@@ -1,5 +1,5 @@
 ### Sawt
------
+--
 
 - ✨ Sawt is an automated podcast highlights extraction tool designed specifically for Arabic language podcasts
 
