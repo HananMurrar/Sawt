@@ -319,6 +319,7 @@ def extract_and_save_visual_content_clips(video_path, highlights, output_folder=
 
     clip_index = 1
     for clip in highlights:
+        # ignore clip less than 25 second 
         if clip["duration"] < 25:
             continue
 
