@@ -50,20 +50,27 @@ def merge_highlights_for_video_podcast(output_audio_info_file, output_visual_con
             v_end = v_clip["end_time"]
 
             if time_overlap(a_start, a_end, v_start, v_end):
-                merged_clips.append(
-                    {
-                        "clip_number": clip_index,
-                        "start_time": max(a_start, v_start),
-                        "end_time": min(a_end, v_end),
-                        "key_text": a_clip["key_text"],
-                        "summary_text": a_clip["summary_text"],
-                    }
-                )
-                clip_index += 1
-                overlap_found = True
-                break
+                merged_start = max(a_start, v_start)
+                merged_end = min(a_end, v_end)
+                duration = merged_end - merged_start
 
-        if not overlap_found:
+                if duration >= 25:
+                    merged_clips.append(
+                        {
+                            "clip_number": clip_index,
+                            "start_time": merged_start,
+                            "end_time": merged_end,
+                            "key_text": a_clip["key_text"],
+                            "summary_text": a_clip["summary_text"],
+                        }
+                    )
+                    clip_index += 1
+                    overlap_found = True
+                    break 
+
+        duration = a_end - a_start
+        # ignore clip less than 25 second
+        if not overlap_found and duration >= 25:
             merged_clips.append(
                 {
                     "clip_number": clip_index,
@@ -102,4 +109,3 @@ def merge_highlights_for_video_podcast(output_audio_info_file, output_visual_con
 
     print("Merge information completed")
     return output_video_info_file, output_video_clips_folder
-
