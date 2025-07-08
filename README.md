@@ -11,7 +11,7 @@
 #### Sawt system processing pipeline
 
 - 🌍 Language detection: the system checks if the uploaded podcast is in Arabic and proceeds only if it is, otherwise it shows a message
-- 📁 Data collection:users upload audio or video files through a web page, these uploaded files serve as the raw data that the system processes and analyzes
+- 📁 Data collection: users upload audio or video files through a web page, these uploaded files serve as the raw data that the system processes and analyzes
 - 📋 Transcription: after the podcast file is uploaded, the system checks if its a video, it extracts the audio, then audio is converted into text using a speech to text API
 - 🧩 Modelling architecture:
   - 🎧 Audio subsystem: once the transcript is generated, this subsystem is responsible for performing detailed audio and text analysis to identify meaningful segments 
