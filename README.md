@@ -1,5 +1,5 @@
 ### Sawt
-<hr style="height:1px; border:none; background-color:#ccc;" />
+<hr style="height:0.5px; border:none; background-color:#ccc;" />
 
 - ✨ Sawt is an automated podcast highlights extraction tool designed specifically for Arabic language podcasts
 
