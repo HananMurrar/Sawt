@@ -38,6 +38,9 @@
 #### Sawt demo 
 [🎬 Watch the demo video (download)](https://github.com/HananMurrar/Sawt/raw/main/Sawt/Demo.mov)
 
+🎬 [Click here to watch the demo video](https://HananMurra.github.io/Sawt/Sawt/forDemo.html)
+
+
 #### Sawt team
 - Ahmed Naser
 - Hanan Murrar
