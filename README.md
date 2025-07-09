@@ -36,10 +36,7 @@
 ├── mongosh.exe # MongoDB shel
 ```
 #### Sawt demo 
-[🎬 Watch the demo video (download)](https://github.com/HananMurrar/Sawt/raw/main/Sawt/Demo.mov)
-
-🎬 [Click here to watch the demo video](https://HananMurra.github.io/Sawt/Sawt/forDemo.html)
-
+🎬 [![Watch Demo](Sawt/demo-button.png)](https://github.com/HananMurrar/Sawt/raw/main/Sawt/Demo.mov)
 
 #### Sawt team
 - Ahmed Naser
